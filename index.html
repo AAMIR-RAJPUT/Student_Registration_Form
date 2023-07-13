@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <title>Student Registration Form</title>
+    <style>
+        div {
+            padding-top: 20px;
+            padding-left: 20px;
+            left: 370px;
+            position: absolute;
+            top: 90px;
+            color: white;
+            background-color: blueviolet;
+            right: 380px;
+        }
+
+        #First_Name,
+        #Last_Name,
+        #Email {
+            margin-left: 105px;
+        }
+
+        #Date {
+            margin-left: 90px;
+        }
+
+        #phone {
+            margin-left: 40px;
+        }
+
+        .male {
+            padding-left: 107px;
+        }
+
+        .ADDRESS {
+            padding-top: 90px;
+        }
+
+        #ddd {
+            padding-top: 2px;  
+              margin-top: 40px;  
+        } 
+
+        #City {
+            margin-left: 150px;
+        }
+
+        #Pin_Code {
+            margin-left: 120px;
+        }
+
+        #STATE {
+            margin-left: 130px;
+        }
+
+        #country {
+            margin-left: 100px;
+        }
+
+        .hobbies {
+            margin-left: 105px;
+        }
+
+        .Others {
+            padding-left: 175px;
+        }
+
+        .Qualification {
+            padding-top: 10px;
+        }
+
+        .class {
+            padding-left: 20px;
+        }
+
+        .button {
+            padding-left: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="text-align: center; color: blueviolet;font-size: xx-large;"> <u>STUDENT REGISTRATION FORM </u></p>
+    <div>
+        <form>
+            <label for="First_Name">First Name</label>
+            <input id="First_Name" type="text" size="15" maxlength="30"> (max 30 charecters a-z and A-Z)
+            <br><br>
+            <label for="Last_Name">Last Name</label>
+            <input id="Last_Name" type="text" size="15" maxlength="30"> (max 30 charecters a-z and A-Z)
+            <br>
+            <p class="Date">Date of Birth
+                <select name="Date" id="Date">
+                    <option value="Date">Day</option>
+                    <option value="Date">1</option>
+                    <option value="Date">2</option>
+                    <option value="Date">3</option>
+                    <option value="Date">4</option>
+                    <option value="Date">5</option>
+                    <option value="Date">6</option>
+                    <option value="Date">7</option>
+                    <option value="Date">8</option>
+                    <option value="Date">9</option>
+                    <option value="Date">10</option>
+                    <option value="Date">11</option>
+                    <option value="Date">12</option>
+                    <option value="Date">13</option>
+                    <option value="Date">14</option>
+                    <option value="Date">15</option>
+                    <option value="Date">16</option>
+                    <option value="Date">17</option>
+                    <option value="Date">18</option>
+                    <option value="Date">19</option>
+                    <option value="Date">20</option>
+                    <option value="Date">21</option>
+                    <option value="Date">22</option>
+                    <option value="Date">23</option>
+                    <option value="Date">24</option>
+                    <option value="Date">25</option>
+                    <option value="Date">26</option>
+                    <option value="Date">27</option>
+                    <option value="Date">28</option>
+                    <option value="Date">29</option>
+                    <option value="Date">30</option>
+                    <option value="Date">31</option>
+                </select>
+                <select name="Month" id="Month">
+                    <option value="Month">Month</option>
+                    <option value="Month">January</option>
+                    <option value="Month">February</option>
+                    <option value="Month">March</option>
+                    <option value="Month">April</option>
+                    <option value="Month">May</option>
+                    <option value="Month">Jue</option>
+                    <option value="Month">July</option>
+                    <option value="Month">August</option>
+                    <option value="Month">September</option>
+                    <option value="Month">October</option>
+                    <option value="Month">November</option>
+                    <option value="Month">December</option>
+                </select>
+                <select name="year" id="year">
+                    <option value="year">Year</option>
+                    <option value="year">2023</option>
+                    <option value="year">2022</option>
+                    <option value="year">2021</option>
+                    <option value="year">2020</option>
+                    <option value="year">2019</option>
+                    <option value="year">2018</option>
+                    <option value="year">2017</option>
+                    <option value="year">2016</option>
+                    <option value="year">2015</option>
+                    <option value="year">2014</option>
+                    <option value="year">2013</option>
+                    <option value="year">2012</option>
+                    <option value="year">2011</option>
+                    <option value="year">2010</option>
+                    <option value="year">2009</option>
+                    <option value="year">2008</option>
+                    <option value="year">2007</option>
+                    <option value="year">2006</option>
+                    <option value="year">2005</option>
+                    <option value="year">2004</option>
+                    <option value="year">2003</option>
+                    <option value="year">2002</option>
+                    <option value="year">2001</option>
+                    <option value="year">2000</option>
+                    <option value="year">1999</option>
+                    <option value="year">1998</option>
+                    <option value="year">1997</option>
+                    <option value="year">1996</option>
+                    <option value="year">1995</option>
+                    <option value="year">1994</option>
+                    <option value="year">1993</option>
+                    <option value="year">1992</option>
+                    <option value="year">1991</option>
+                    <option value="year">1990</option>
+                </select>
+            </p>
+            <label for="Email">EMAIL ID
+                <input type="email" size="15" name="email" id="Email"></label>
+            <br><br>
+            <label for="phone">MOBILE NUMBER
+                <input type="tel" name="tel" id="phone" size="15" maxlength="11"> (11 digit number)</label>
+            <br><br>
+            <label id="" for="">GENDER</label>
+            <label class="male" for="male">Male</label>
+            <input class="male" id="male" type="radio" name="setD_gender">
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="setD_gender">
+            <br><br>
+            <label id="ddd" for="ddd">ADDRESS</label>
+            <textarea style="padding-left: 50px; margin-left: 99px;" name="ADDRESS" id="ADDRESS" cols="25"
+                rows="3"></textarea>
+            <br><br>
+            <label for="City">City
+                <input id="City" type="text" size="15" maxlength="30"> (max 30 charecters a-z and A-Z)</label>
+            <br><br>
+            <label for="Pin_Code">Pin Code
+                <input id="Pin_Code" type="text" size="15" maxlength="30">(6 digit number)</label>
+            <br><br>
+            <label for="STATE">STATE
+                <input id="STATE" type="text" size="15" maxlength="30"> (max 30 charecters a-z and A-Z)</label>
+            <br><br>
+            <label for="country">COUNTRY</label>
+            <select name="country" id="country">
+                <option value="PAKISTAN">PAKISTAN</option>
+                <option selected="selected" value="CHINA">CHINA</option>
+                <option value="TURKEY">TURKEY</option>
+                <option value="AMERICA">AMERICA</option>
+                <option value="INDIA">INDIA</option>
+                <option selected="selected" value="U.A.E">U.A.E</option>
+            </select>
+            <br><br>
+            <label for="hobbies">HOBBIES</label>
+            <label class="hobbies" for="hobbies">Drawing<input type="checkbox" name="" id="hobbies"></label>
+            Singing<input type="checkbox" name="" id="Singing">
+            Dancing<input type="checkbox" name="" id="Dancing">
+            Sketching<input type="checkbox" name="" id="Sketching">
+            <br>
+            <label class="Others" for="Others"> Others<input type="checkbox" name="" id="Others"><input
+                    type="text"></label>
+            <br><br>
+            <table>
+                <tr>
+                    <th class="Qualification">
+                        Qualification
+                    </th>
+                    <th>Sr.No</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: center;">(10 char max)</td>
+                    <td style="text-align: center;">(upto 2 decimal) </td>
+                </tr>
+            </table>
+            <label for="">Courses <br> Applied For
+                <label class="class" for="">BCA<input type="radio" name="" id=""></label>
+                <label for="">B.com<input type="radio" name="" id=""></label>
+                <label for="">B.Sc<input type="radio" name="" id=""></label>
+                <label for="">B.A<input type="radio" name="" id=""></label>
+            </label>
+            <br><br>
+            <label class="button" for="">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button></label>
+        </form>
+    </div>
+</body>
+</html>
